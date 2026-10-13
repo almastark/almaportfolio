@@ -37,14 +37,6 @@
         <div><dt>Format</dt><dd>Podd, kunskapstest och PDF</dd></div>
       </dl>
     </section>
-    <nav class="lc-anchor-nav" aria-label="Navigering i fallstudien">
-      <div class="wrap lc-anchor-links">
-        <a href="#oversikt">Översikt</a>
-        <a href="#larandeupplevelsen">Lärandeupplevelsen</a>
-        <a href="#designprocessen">Designprocessen</a>
-        <a href="#resultatet">Resultatet</a>
-      </div>
-    </nav>
     <section class="section wrap lc-challenge" aria-labelledby="challenge-title">
       <div><p class="section-top">Utmaningen</p><h2 id="challenge-title">Små ord.<br>En viktig skillnad.</h2></div>
       <div class="lc-prose"><p>Skillnaden mellan <em>ligger, lägger, står</em> och <em>sätter</em> kan vara svår att förstå och använda. Orden beskriver närliggande situationer, men skiljer mellan ett läge och en handling.</p><p>Jag identifierade den här lärandesvårigheten och utvecklade en idé för att göra skillnaden tydligare. Utgångspunkten var att kombinera en muntlig förklaring med möjlighet att pröva sin förståelse.</p>
@@ -82,7 +74,20 @@
       <a class="lc-text-link" href="index.html#work">Tillbaka till alla projekt <span aria-hidden="true">↗</span></a>
     </section>
   </main>
+  <div class="lc-contents" data-case-contents>
+    <nav id="case-contents-menu" class="lc-contents-menu" aria-label="Innehåll i fallstudien" hidden>
+      <a href="#oversikt">Översikt</a>
+      <a href="#larandeupplevelsen">Lärandeupplevelsen</a>
+      <a href="#designprocessen">Designprocessen</a>
+      <a href="#resultatet">Resultatet</a>
+    </nav>
+    <button class="lc-contents-toggle" type="button" aria-expanded="false" aria-controls="case-contents-menu" aria-label="Innehåll">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M9 6h12M9 12h12M9 18h12M3 6h2M3 12h2M3 18h2"/></svg>
+      <span>Innehåll</span>
+    </button>
+  </div>
   <div data-site-footer></div>
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/case-01.js"></script>
 </body>
 </html>
